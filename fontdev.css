@@ -1,0 +1,27 @@
+#index{
+	background-color: black; 
+        font-family: Times; 
+}
+
+
+.list {
+	font-size: 25px;  
+}
+
+.navigationbar{
+        font-family: ariel; 
+}
+
+/*Second Page*/
+#secondpage{
+
+}
+/*Third Page*/ 
+#thirdpage{
+.testtable{
+    align:center; 
+    valign:top; 
+}   
+font-family: 'Open Sans', sans-serif;
+    
+}
