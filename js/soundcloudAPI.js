@@ -1,11 +1,17 @@
-<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
-<script>
+/* initialize soundcloud API with key */
 SC.initialize({
-  client_id: '652dfa695526e53068460556fa0fedc7'
+    client_id: "652dfa695526e53068460556fa0fedc7"
 });
 
-var track_url = 'http://soundcloud.com/forss/flickermood';
-SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
-  console.log('oEmbed response: ', oEmbed);
-});
-</script>
+$(document).ready(
+  /* This is the function that will get executed after the DOM is fully loaded */
+  function () {
+    /* set user we wish to see trackList for */
+    var USER = "protect_ya_neck"
+    /* set user name on DOM */
+    $("#user").html(USER);
+
+
+  }
+);
+
