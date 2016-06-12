@@ -1,11 +1,26 @@
-<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
-<script>
+/* initialize soundcloud API with key */
 SC.initialize({
-  client_id: '652dfa695526e53068460556fa0fedc7'
+    /* This is the sample client_id. you should replace this with your own*/
+    client_id: "652dfa695526e53068460556fa0fedc7"
 });
 
-var track_url = 'http://soundcloud.com/forss/flickermood';
-SC.oEmbed(track_url, { auto_play: true }).then(function(oEmbed) {
-  console.log('oEmbed response: ', oEmbed);
-});
-</script>
+$(document).ready(
+  /* This is the function that will get executed after the DOM is fully loaded */
+  function () {
+    /* set user we wish to see trackList for */
+    var USER = "dj-faze"
+    /* set user name on DOM */
+    $("#user").html(USER);
+    
+    /* Use soundcloud API to get track list */
+    SC.get("/users/"+USER+"/tracks", {limit: 100}, function(tracks){
+      var trackList = ""
+      for (var i = 0; i < tracks.length; i++) {
+        /* populate trackList html */
+        trackList += tracks[i].title + "<br>";
+      }
+      $("#status").html(trackList);
+    });
+  }
+);
+

@@ -3,11 +3,12 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic' rel='stylesheet' type='text/css'>
-  <title>Music</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:600italic'                rel='stylesheet' type='text/css'>
+    <!-- Sound Cloud API -->
+<script src="//connect.soundcloud.com/sdk.js"></script>
+<script src="js/soundcloudAPI.js"></script>
 
+  <title>Music</title>
   <link rel="stylesheet" href="fontdev.css">
   <style>
         body{
@@ -16,17 +17,23 @@
            }
   </style>
 </head>
-
+<!--Music Player-->
+<div id="player"></div>
 <body>
     <center>
         <h1>Heavy Rotation</h1>
     </center>
     <aligned-left>
-    <img src =  file:///home/cristian/Pictures/Web/turntable-297877_640.png>
+    <img src="https://pixabay.com/static/uploads/photo/2014/04/02/14/07/turntable-306254_960_720.png">
     </aligned-left>
     <aligned-right>
     <!-- 652dfa695526e53068460556fa0fedc7 -->
     </aligned-right>
-  <script src="js/soundcloudAPI.js"></script>
+    
+    <h1>User</h1>
+    <div id="user">DOM Loading...</div>
+    <h1>Tracklist</h1>
+    <div id="status">DOM Loading...</div>
+
 </body>
 </html>
