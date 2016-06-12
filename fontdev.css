@@ -1,31 +1,45 @@
-#index{
-	background-color: black; 
-        font-family: Times; 
+body{
+	font-family: 'Open Sans', serif;
+	font-size: 17px;
+	background-color: white;
 }
 
-
-.list {
-	font-size: 25px;  
+#navbar
+ul{
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	word-spacing: 15px;
+}
+ul li{
+	
+	display: inline;
+}
+ul li a{
+	text-decoration: none; 
 }
 
-.navigationbar{
-        font-family: ariel; 
+#center_piece
+p{
+
+	font-size: 35px;
 }
 
-/*Second Page*/
-#secondpage{
+#home_image
+{
+	padding-right: 900px;
 
 }
-/*Third Page*/ 
-#thirdpage{
-.testtable{
-    align:center; 
-    valign:top; 
-}   
-font-family: 'Open Sans', sans-serif;
-    
+
+#left_title
+p{
+	font-size: 25px;
+
 }
 
-#vinyl{
-    margin-top: 70px;
+#pictures
+{
+	
 }
+
