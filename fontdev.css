@@ -11,6 +11,7 @@ ul{
 	margin: 0;
 	padding: 0;
 	word-spacing: 15px;
+	font-size: 15px;
 }
 ul li{
 	
@@ -28,7 +29,7 @@ p{
 
 #home_image
 {
-	padding-right: 900px;
+	
 
 }
 
@@ -41,5 +42,15 @@ p{
 #pictures
 {
 	
+}
+
+#vinyl
+{
+	/*
+		note: setting pos. to absolute allows
+		to move image anywhere in the page
+	*/
+	position: relative;
+	top: 90px;
 }
 
