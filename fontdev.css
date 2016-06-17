@@ -11,7 +11,7 @@ ul{
 	margin: 0;
 	padding: 0;
 	word-spacing: 15px;
-	font-size: 15px;
+	font-size: 10px;
 }
 ul li{
 	
@@ -24,7 +24,8 @@ ul li a{
 #center_piece
 p{
 
-	font-size: 35px;
+	font-size: 20px;
+	margin-bottom: 0px;
 }
 
 #home_image
@@ -36,7 +37,7 @@ p{
 #left_title
 p{
 	font-size: 20px;
-    margin-bottom: 0px;;
+    margin-bottom: 0px;
 }
 
 #pictures

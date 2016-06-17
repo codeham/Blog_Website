@@ -3,6 +3,7 @@
   widget.bind(SC.Widget.Events.READY, function() {
   console.log('Ready...');
   });
+  	//button functions... 
      $('#play_pause_button').click(function() {
        widget.toggle();
      });
@@ -12,5 +13,9 @@
      $('#prev_button').click(function() {
        widget.prev();
      }); 
+     //end of button functions
+     SC.get('/users/' + USER + '/playlists', function(playlists) {
+     	
+     });
   });
   
