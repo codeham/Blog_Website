@@ -2,9 +2,9 @@ body{
 	font-family: 'Open Sans', serif;
 	font-size: 17px;
 	background-color: white;
-	background-image: url(http://65.media.tumblr.com/4582ed0f2af94ac00c0f1ab75747b53c/tumblr_o92hozGzJL1tf8vylo1_1280.png);
+	background-image: url(http://66.media.tumblr.com/cddbbb38fc8fe95a44a234089cf11ca0/tumblr_ny4th4PPLx1tf8vylo1_1280.png);
 	background-attachment: fixed;
-
+	background-size: 100% auto;
 }
 
 #navbar
@@ -26,14 +26,12 @@ ul li a{
 
 #center_piece
 p{
-
-	font-size: 20px;
-	margin-bottom: 0px;
+	font-size: 28px;
+	margin-bottom: 10px;
 }
 
 #home_image
 {
-	
 
 }
 
